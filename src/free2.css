@@ -1,0 +1,54 @@
+.free2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    color: #2f353b;
+    margin-bottom: 20px;
+  }
+  
+  .form-section {
+    margin-bottom: 30px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .text {
+    color: #180808;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-button {
+    background-color: #37414c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .experience-section {
+    margin-top: 20px;
+  }
+  
+  
+  
