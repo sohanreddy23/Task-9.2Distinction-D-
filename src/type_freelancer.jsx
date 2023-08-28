@@ -1,5 +1,5 @@
 import React from 'react';
-import './free2.css'; 
+import './employer_freelancer.css'; 
 
 function Free2() {
     return (

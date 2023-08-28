@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './job.css'; 
-import Describe from './free1';
-import Free2 from './free2';
+import './job_type.css'; 
+import Describe from './type_freelancer';
+import Free2 from './type_employer';
 
 function JobForm() {
     const [jobType, setJobType] = useState(null);

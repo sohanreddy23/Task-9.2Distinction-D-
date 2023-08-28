@@ -1,5 +1,5 @@
 import './App.css';
-import JobForm from './job'
+import JobForm from './job_type'
 
 function App() {
   return (
