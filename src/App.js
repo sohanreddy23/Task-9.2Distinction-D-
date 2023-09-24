@@ -1,9 +1,8 @@
-// App.js
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import JobForm from './job_type'; // Rename your existing component
-import FindJobs from './FindJobs'; // Import the FindJobs component
+import JobForm from './job_type'; 
+import Findjobs from './FindJobs'; 
 import Navbar from './navbar';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<JobForm />} />
-          <Route path="find-jobs" element={<FindJobs />} />
+          <Route path="find-jobs" element={<Findjobs />} />
         </Routes>
         </div>
   );
