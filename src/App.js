@@ -4,6 +4,7 @@ import './App.css';
 import JobForm from './job_type'; 
 import Findjobs from './FindJobs'; 
 import Navbar from './navbar';
+import PaymentPage from './PaymentPage'; 
 
 function App() {
   return (    
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<JobForm />} />
           <Route path="find-jobs" element={<Findjobs />} />
+          <Route path="/payment" element={<PaymentPage />} />
         </Routes>
         </div>
   );

@@ -10,6 +10,9 @@ function Navbar() {
       <Link to="/find-jobs" className="nav-link">
         Find Jobs
       </Link>
+      <Link to="/payment" className="nav-link">
+        Payment
+      </Link>
     </nav>
   );
 }
