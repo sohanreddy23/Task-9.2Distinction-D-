@@ -25,7 +25,7 @@ function PaymentForm() {
 
         if (response.data.success) {
           console.log("Successful payment");
-          setSuccess(true); // Set success state to true
+          setSuccess(true); 
         }
       } catch (error) {
         console.log("Error", error);
